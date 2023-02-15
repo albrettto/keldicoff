@@ -1,0 +1,29 @@
+.navPan{
+    background: #FFFFFF;
+    position: static;
+    width: 100%;
+    border-bottom: #000000 1px solid;
+    border-top: #000000 1px solid;
+}
+
+.navPanFixed{
+    background: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    border-bottom: #000000 1px solid;
+    top: 0%;
+}
+
+.navCof{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.navCof:hover{
+    color: #A98E68;
+}

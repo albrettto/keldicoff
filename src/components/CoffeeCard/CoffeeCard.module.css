@@ -1,0 +1,38 @@
+.coffeeCard{
+    border-radius: 20px;
+    background: #FFFFFF;
+    border: lightgray 1px solid;  
+    /* изменение курсора при наведении */
+    cursor: pointer;
+}
+
+.coffeePict{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+
+    object-fit: cover;   
+
+}   
+
+.coffeeName{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #4D443D;
+    margin-top: 40px;
+}
+
+.coffeePrice{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #4D443D; 
+}

@@ -1,0 +1,49 @@
+.weAre{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    
+    color: #4D443D;   
+    margin-top: 10%;
+    margin-left: 8%; 
+}
+
+.line{
+    width: 650px;
+    height: 0px;
+    border: 1px solid #4D443D;
+    margin-left: 8%;
+    background-color: #4D443D;
+}
+
+.mailDiv{
+    margin-top: 25px;
+    margin-left: 8%;
+    margin-bottom: 10%;
+}
+
+.mail{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    color: #4D443D;
+    line-height: 0.5em;
+}
+
+.mailLink{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #A98E68;
+    text-decoration: none;
+}
+
+.mailLink:hover{
+    color: #4D443D;
+}

@@ -1,0 +1,58 @@
+.close{
+    width: 50px !important;
+    height: 50px;
+    padding: 0% !important;
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.pictModal{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.titleModal{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    
+    color: #4D443D;
+}
+
+.textModal{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #4D443D;    
+}
+
+.infoModal{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    color: #4D443D;
+    
+}
+
+.priceModal{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #4D443D;
+
+    position: absolute;
+    bottom: 0;
+}

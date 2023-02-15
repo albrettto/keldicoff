@@ -1,0 +1,58 @@
+.cupOfCoffee{
+    position: relative;
+    z-index: 1;
+    float: right;
+}
+
+.weAre{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    
+    color: #4D443D;   
+    margin-top: 10%;
+    margin-left: 8%; 
+}
+
+.line{
+    width: 650px;
+    height: 0px;
+    border: 1px solid #4D443D;
+    margin-left: 8%;
+    background-color: #4D443D;
+}
+
+.info{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #4D443D;
+    line-height: 0.5em;
+    z-index: 2;
+}
+
+.phone{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #A98E68;
+    text-decoration: none;
+}
+
+.phone:hover{
+    color: #4D443D;
+}
+
+.marg{
+    margin-top: 135px;
+}
+
+.addres{
+    margin-top: 110px;
+    margin-left: 8%;
+}
