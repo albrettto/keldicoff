@@ -1,0 +1,32 @@
+.navItem{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #F1EEDB;
+    text-decoration: none;    
+}
+
+.navItem:hover{
+    color:#A98E68;
+}
+
+.navItem-active{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #A98E68;
+    text-decoration: none;    
+}
+
+.navItem-active:hover{
+    color: #F1EEDB;
+}
+
+header{
+    position: relative;
+}

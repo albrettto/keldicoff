@@ -1,0 +1,70 @@
+footer{
+    background: url(../../images/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 330px;
+}
+
+.callFoot{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #F1EEDB;    
+}
+
+.telFoot{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #F1EEDB;
+    text-decoration: none;    
+}
+
+.telFoot:hover{
+    color: #A98E68;
+}
+
+.mailFoot{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #F1EEDB;
+    text-decoration: none;
+}
+
+.mailFoot:hover{
+    color: #A98E68;
+}
+
+.linkFoot{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.7em;
+    
+    color: #F1EEDB;    
+    text-decoration: none;
+}
+
+.linkFoot:hover{
+    color: #A98E68;
+}
+
+.copyright{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #FFFFFF;
+}
