@@ -1,0 +1,48 @@
+.thirdSect{
+    margin-top: 10%;
+    display: flex;
+    position: relative;
+}
+
+.titleThirdSect{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    
+    color: #4D443D;
+
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+
+.textThirdSect{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #4D443D;
+    
+
+    position: absolute;
+    top: 48%;
+    left: 8%;
+}
+
+.man{
+    position: absolute;
+    right: 0%;
+    float: right;
+}
+
+.texture{
+    width: 85%;
+    height: 500px;
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));   
+    object-fit: cover;
+}

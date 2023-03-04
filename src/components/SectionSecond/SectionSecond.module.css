@@ -1,0 +1,45 @@
+.secondSect{
+    margin-top: 5%;
+    position: relative;
+    overflow: hidden;
+}
+
+.titleSecondSect{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    
+    color: #FFFFFF;
+
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.btnSecondSect{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #4D443D;
+    background: #FFFFFF;
+    border: none;
+    padding: 15px;  
+    transition: all 0.5s;  
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+
+.btnSecondSect:hover{
+    box-shadow: 250px 0 0 0 rgba(0,0,0,.3) inset;
+    /* color: #585858; */
+}
+
+.coffeeBeans{
+    float: right;
+}

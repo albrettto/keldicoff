@@ -20,12 +20,12 @@ function setFixed() {
     <div className={fix ? cl.navPanFixed : cl.navPan}>
         <nav className="container justify-content-between py-3">
             <Row>
-                <Col xs={2}><a className={cl.navCof} href="#hotCoffee">Горячий кофе</a></Col>
-                <Col xs={2}><a className={cl.navCof} href="#coldCoffee">Холодный кофе</a></Col>
-                <Col xs={2}><a className={cl.navCof} href="#hotDrink">Горячие напитки</a></Col>
-                <Col xs={2}><a className={cl.navCof} href="#coldDrink">Холодные напитки</a></Col>
-                <Col xs={2}><a className={cl.navCof} href="#hotTea">Горячий чай</a></Col>
-                <Col xs={2}><a className={cl.navCof} href="#frap">Фраппучино</a></Col>
+                <Col xs={2}><a className={cl.navCof} href="#Горячий кофе">Горячий кофе</a></Col>
+                <Col xs={2}><a className={cl.navCof} href="#Холодный кофе">Холодный кофе</a></Col>
+                <Col xs={2}><a className={cl.navCof} href="#Горячие напитки">Горячие напитки</a></Col>
+                <Col xs={2}><a className={cl.navCof} href="#Холодные напитки">Холодные напитки</a></Col>
+                <Col xs={2}><a className={cl.navCof} href="#Горячий чай">Горячий чай</a></Col>
+                <Col xs={2}><a className={cl.navCof} href="#Фраппучино">Фраппучино</a></Col>
             </Row>
         </nav>
     </div>

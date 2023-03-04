@@ -1,16 +1,40 @@
-import React from 'react'
-import cl from './MyLocation.module.css'
+import React, { useState, useEffect, useRef } from 'react';
+import cl from './MyLocation.module.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import CupOfCoffee from '../../images/cupOfCoffee.png'
-
+import CupOfCoffee from '../../images/cupOfCoffee.png';
 
 const MyLocation = () => {
+  const cupOfCoffeeRef = useRef(null);
+  const [check, setCheck] = useState(false);
+
+  useEffect(() => {
+    const cupOfCoffee = cupOfCoffeeRef.current;
+    setCheck(true);
+
+    const handleScroll = () => {
+      const scrolled = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+
+      if (check) {
+        setTimeout(() => {
+          cupOfCoffee.style.top = `${scrolled / 20}px`;
+        }, 300);
+        console.log(cupOfCoffee.style.top)
+
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [check]);
+
   return (
     <div className="">
       <p className={cl.weAre}><a name="geoLoc"></a> МЫ НАХОДИМСЯ</p>
       <div className={cl.line}></div>
-      <img className={cl.cupOfCoffee} src={CupOfCoffee} alt=""/>
+      <img className={cl.cupOfCoffee} src={CupOfCoffee} ref={cupOfCoffeeRef}  alt=""/>
       <div className={cl.addres}>
         <Row>
             <Col xs={4}>

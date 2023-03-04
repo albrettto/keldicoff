@@ -1,0 +1,23 @@
+.title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    
+    color: #FFFFFF;
+    
+    width: 950px;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+.carouselControlPrev{
+    margin-top: 25%;
+    margin-left: 2%;
+}
+
+.carouselControlNext{
+    margin-top: 25%;
+    margin-right: 77%;
+}

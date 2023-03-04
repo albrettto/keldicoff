@@ -5,6 +5,8 @@ import MyHeader from '../components/MyHeader/MyHeader';
 import MyModal from '../components/MyModal/MyModal';
 import NavPanel from '../components/NavPanel/NavPanel';
 import data from '../data.js';
+import "../App.css"
+
 
 
 function Menu() {
@@ -14,7 +16,7 @@ function Menu() {
       };
 
   return (
-    <div>
+    <div  className='App'>
       <MyHeader/>
       <NavPanel/>
       <div style={menu}>

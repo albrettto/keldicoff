@@ -1,0 +1,85 @@
+.navItem{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #F1EEDB;
+    text-decoration: none;    
+}
+
+.navItem:hover{
+    color:#A98E68;
+}
+
+.navItem-active{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #A98E68;
+    text-decoration: none;    
+}
+
+.navItem-active:hover{
+    color: #F1EEDB;
+}
+
+header{
+    position: relative;
+}
+
+.navItem-dark{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;    
+    color: #4D443D;
+}
+
+.navItem-dark:hover{
+    color: #A98E68;
+}
+
+.logo{
+    background-image: url(../../images/KELDICOFF.svg);
+    background-size: cover;
+    background-position: center;
+    width: 230px;
+    height: 80px;
+}
+
+.logo:hover{
+    background-image: url(../../images/KELDICOFF-dark.svg);
+}
+
+.logo-dark{
+    background-image: url(../../images/KELDICOFF-dark.svg);
+    background-size: cover;
+    background-position: center;
+    width: 230px;
+    height: 80px;
+}
+
+.logo-dark:hover{
+    background-image: url(../../images/KELDICOFF-choco.svg);
+}
+
+.navItem-about{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #F1EEDB;
+    text-decoration: none;    
+}
+
+.navItem-about:hover{
+    color:#4D443D;
+}
